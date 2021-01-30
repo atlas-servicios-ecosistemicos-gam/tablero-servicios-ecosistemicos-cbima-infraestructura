@@ -47,18 +47,17 @@ raster_infraestructura_natural_gris <-
 #---------------- Paletas de colores ---------------
 
 colores_infraestructura_natural_gris <- 
-  c(rgb(204,204,204, maxColorValue=255),
-    rgb(43,99,89,    maxColorValue=255)
-    )
+  c(rgb(43,99,89,    maxColorValue=255),
+    rgb(204,204,204, maxColorValue=255))
 
 etiquetas_infraestructura_natural_gris <- 
-  c("Gris", 
-    "Natural"
+  c("Natural", 
+    "Gris"
     )
 
 values_infraestructura_natural_gris <- 
-  c(200,
-    100)
+  c(100,
+    200)
 
 pal_infraestructura_natural_gris <- 
   colorFactor(
