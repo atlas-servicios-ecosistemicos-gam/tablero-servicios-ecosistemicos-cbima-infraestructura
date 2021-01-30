@@ -47,8 +47,8 @@ raster_infraestructura_natural_gris <-
 #---------------- Paletas de colores ---------------
 
 colores_infraestructura_natural_gris <- 
-  c("Green",
-    "Gray"
+  c(rgb(43,99,89,    maxColorValue=255),
+    rgb(204,204,204, maxColorValue=255)
     )
 
 etiquetas_infraestructura_natural_gris <- 
@@ -145,8 +145,8 @@ fig <- plot_ly(datos,
                values = ~valores, 
                marker = list(
                  colors = c(
-                   "Green",
-                   "Gray"
+                   rgb(43,99,89,  maxColorValue=255),
+                   rgb(204,204,204, maxColorValue=255)
                  )
                ),
                type = 'pie')
